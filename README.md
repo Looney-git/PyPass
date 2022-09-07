@@ -1,1 +1,1 @@
-To install run this command >> `sudo cd ~ && sudo git clone https://github.com/Looney-git/PyPass ~/gh_import && sudo python3 gh_import/setup.py && sudo rm -r gh_import && sudo echo restart terminal then run pypass`
+To install run this command >> `echo setup requires administrative privalages && sudo cd ~ && git clone https://github.com/Looney-git/PyPass ~/.pypass && sudo python3 ~/.pypass./setup.py && echo restart terminal for changes to come into effect`
