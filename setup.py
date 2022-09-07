@@ -2,7 +2,7 @@ import os
 
 os.system("sudo mkdir ~/.PyPass")
 
-os.system("sudo mv ~/PyPass/PyPass.py ~/.PyPass/")
+os.system("sudo mv ~/gh_import/PyPass.py ~/.PyPass/")
 
 with open(os.path.expanduser('~')+"/.zprofile", 'a') as f:
 
