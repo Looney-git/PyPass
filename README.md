@@ -1,1 +1,1 @@
-To install run this command >> `echo setup requires administrative privalages && sudo cd ~ && git clone https://github.com/Looney-git/PyPass ~/.pypass && sudo python3 ~/.pypass./setup.py && echo restart terminal for changes to come into effect`
+To install run this command >> `sudo git clone https://github.com/Looney-git/PyPass ~/.pypass&& sudo python3 ~/.pypass/PyPass.py`
