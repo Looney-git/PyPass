@@ -2,12 +2,8 @@ import keyboard
 
 while True:
     
-    recorded = keyboard.record(until='esc')
+    recorded = keyboard.record(until='`')
 
-    for key in recorded:
-
-        if key.event_type == 'down':
-
-            print(key.name)
+    keyboard.play(recorded, 3)
 
     break
